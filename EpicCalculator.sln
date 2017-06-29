@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Application Layer", "1.Application Layer", "{8158FCDF-EC7A-481B-B4F3-E5E77FB17B4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Business Layer", "2.Business Layer", "{5C456C95-03C6-4441-A511-C3E598B21B6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Data Access Layer", "3.Data Access Layer", "{3367E46D-56E8-4745-B5AE-50E6EFA0662C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicCalculatorWebApp", "EpicCalculatorWebApp\EpicCalculatorWebApp.csproj", "{6A1B7D42-9C3A-4774-BE2E-F16E9A9E5023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicCalculator.BL", "EpicCalculator.BL\EpicCalculator.BL.csproj", "{F88D2D65-7CD5-49AB-B98F-0CFAFB333199}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Testing Layer", "4.Testing Layer", "{E1848D3A-DEE4-4FD1-AA25-250BF7860485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicCalculator.BLTest", "EpicCalculator.BLTest\EpicCalculator.BLTest.csproj", "{733E3F9C-C8A4-4E14-BBCA-2667B5CC082B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A1B7D42-9C3A-4774-BE2E-F16E9A9E5023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1B7D42-9C3A-4774-BE2E-F16E9A9E5023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1B7D42-9C3A-4774-BE2E-F16E9A9E5023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1B7D42-9C3A-4774-BE2E-F16E9A9E5023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88D2D65-7CD5-49AB-B98F-0CFAFB333199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88D2D65-7CD5-49AB-B98F-0CFAFB333199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88D2D65-7CD5-49AB-B98F-0CFAFB333199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88D2D65-7CD5-49AB-B98F-0CFAFB333199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{733E3F9C-C8A4-4E14-BBCA-2667B5CC082B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{733E3F9C-C8A4-4E14-BBCA-2667B5CC082B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{733E3F9C-C8A4-4E14-BBCA-2667B5CC082B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{733E3F9C-C8A4-4E14-BBCA-2667B5CC082B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A1B7D42-9C3A-4774-BE2E-F16E9A9E5023} = {8158FCDF-EC7A-481B-B4F3-E5E77FB17B4B}
+		{F88D2D65-7CD5-49AB-B98F-0CFAFB333199} = {5C456C95-03C6-4441-A511-C3E598B21B6D}
+		{733E3F9C-C8A4-4E14-BBCA-2667B5CC082B} = {E1848D3A-DEE4-4FD1-AA25-250BF7860485}
+	EndGlobalSection
+EndGlobal

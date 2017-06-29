@@ -1,0 +1,38 @@
+﻿@model Nullable<double>
+
+@if (Model.HasValue)
+{
+    <label class="control-label col-md-2" for="Result">Result</label>
+    <div class="col-md-10">
+        <input id="Result" name="Result" type="text" value="@Model.Value.ToString()" disabled readonly
+               class="form-control text-box single-line">
+    </div>
+}
+else
+{
+    <div class="custom-alerts alert alert-danger fade in">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" aria-hidden="true">&times;</button>
+        <i class="fa-lg fa fa-warning"></i>
+        <strong>Error</strong>
+        <div class="mt-element-list">
+            <div class="mt-list-container list-simple" style="border: 0;">
+                <ul>
+                    @foreach (var value in ViewData.ModelState.Values)
+                    {
+                        foreach (var error in value.Errors)
+                        {
+                            <li class="mt-list-item">
+                                <div class="list-icon-container">
+                                    <i class="icon-close"></i>
+                                </div>
+                                <div class="list-item-content">
+                                    @error.ErrorMessage
+                                </div>
+                            </li>
+                        }
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+}

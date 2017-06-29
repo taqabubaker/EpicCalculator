@@ -1,0 +1,14 @@
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BLTest\bin\Debug\EpicCalculator.BLTest.dll
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BLTest\bin\Debug\EpicCalculator.BLTest.pdb
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BLTest\bin\Debug\EpicCalculator.BL.dll
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BLTest\bin\Debug\EpicCalculator.BL.pdb
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BLTest\obj\Debug\EpicCalculator.BLTest.csprojResolveAssemblyReference.cache
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BLTest\obj\Debug\EpicCalculator.BLTest.dll
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BLTest\obj\Debug\EpicCalculator.BLTest.pdb

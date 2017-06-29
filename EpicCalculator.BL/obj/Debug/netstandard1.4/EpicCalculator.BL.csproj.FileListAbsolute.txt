@@ -1,0 +1,7 @@
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BL\bin\Debug\netstandard1.4\EpicCalculator.BL.deps.json
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BL\bin\Debug\netstandard1.4\EpicCalculator.BL.dll
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BL\bin\Debug\netstandard1.4\EpicCalculator.BL.pdb
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BL\obj\Debug\netstandard1.4\EpicCalculator.BL.csprojResolveAssemblyReference.cache
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BL\obj\Debug\netstandard1.4\EpicCalculator.BL.AssemblyInfo.cs
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BL\obj\Debug\netstandard1.4\EpicCalculator.BL.dll
+c:\users\tariq\documents\visual studio 2017\Projects\EpicCalculator\EpicCalculator.BL\obj\Debug\netstandard1.4\EpicCalculator.BL.pdb

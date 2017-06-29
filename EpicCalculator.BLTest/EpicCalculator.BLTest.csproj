@@ -56,7 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EpicCalculator.BL\EpicCalculator.BL.csproj">
-      <Project>{F88D2D65-7CD5-49AB-B98F-0CFAFB333199}</Project>
+      <Project>{f88d2d65-7cd5-49ab-b98f-0cfafb333199}</Project>
       <Name>EpicCalculator.BL</Name>
     </ProjectReference>
   </ItemGroup>

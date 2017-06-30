@@ -2,10 +2,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EpicCalculator.BL;
 
-namespace EpicCalculator.BLTest
+namespace EpicCalculator.UnitTests.BLTest
 {
     [TestClass]
-    public class StandardOperationsTest
+    public class StandardOperationsUnitTest
     {
         private IEpicCalculatorClient _client;
 

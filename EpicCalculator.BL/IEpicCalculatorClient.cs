@@ -19,9 +19,9 @@ namespace EpicCalculator.BL
 
         double Power(double baseNum, double powerNum);
         double Log(double number, double logBase);
-        double Sin(double degrees);
-        double Cos(double degrees);
-        double Tan(double degrees);
+        double Sin(double angle);
+        double Cos(double angle);
+        double Tan(double angle);
 
         #endregion
     }

@@ -5,6 +5,7 @@ using EpicCalculator.BL;
 namespace EpicCalculator.UnitTests.BLTest
 {
     [TestClass]
+    [TestCategory("Standard Operations")]
     public class StandardOperationsUnitTest
     {
         private IEpicCalculatorClient _client;

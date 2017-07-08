@@ -43,13 +43,13 @@ namespace EpicCalculatorWebApp.Controllers
                         result = _client.Log(model.Number.Value, model.LogBase.Value);
                         break;
                     case ScientificCalculatorOperations.Sin:
-                        result = _client.Sin(model.Degrees.Value);
+                        result = _client.Sin(model.Angle.Value);
                         break;
                     case ScientificCalculatorOperations.Cos:
-                        result = _client.Cos(model.Degrees.Value);
+                        result = _client.Cos(model.Angle.Value);
                         break;
                     case ScientificCalculatorOperations.Tan:
-                        result = _client.Tan(model.Degrees.Value);
+                        result = _client.Tan(model.Angle.Value);
                         break;
                     default:
                         throw new Exception("Invalid operation!");

@@ -150,11 +150,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ScientificCalculatorController.cs" />
     <Compile Include="Controllers\StandardCalculatorController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\VMScientificCalculator.cs" />
     <Compile Include="ViewModels\VMStandardCalculator.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -195,7 +197,8 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\StandardCalculator\Index.cshtml" />
-    <Content Include="Views\StandardCalculator\_Result.cshtml" />
+    <Content Include="Views\ScientificCalculator\Index.cshtml" />
+    <Content Include="Views\Shared\_Result.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

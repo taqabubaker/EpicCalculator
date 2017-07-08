@@ -14,5 +14,15 @@ namespace EpicCalculator.BL
         double Divide(double firstNum, double secondNum);
 
         #endregion
+
+        #region ScientificOperations Services
+
+        double Power(double baseNum, double powerNum);
+        double Log(double number, double logBase);
+        double Sin(double degrees);
+        double Cos(double degrees);
+        double Tan(double degrees);
+
+        #endregion
     }
 }

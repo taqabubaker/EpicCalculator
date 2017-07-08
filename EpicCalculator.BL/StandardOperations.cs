@@ -2,7 +2,7 @@
 
 namespace EpicCalculator.BL
 {
-    public class EpicCalculatorClient : IEpicCalculatorClient
+    public partial class EpicCalculatorClient : IEpicCalculatorClient
     {
         public double Add(double firstNum, double secondNum)
         {

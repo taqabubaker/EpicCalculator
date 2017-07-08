@@ -16,24 +16,24 @@ namespace EpicCalculator.BL
             return Math.Log(number, logBase);
         }
 
-        public double Sin(double degrees)
+        public double Sin(double angle)
         {
-            return Math.Sin(GetAngle(degrees));
+            return Math.Round(Math.Sin(DegreeToRadian(angle)),3);
         }
 
-        public double Cos(double degrees)
+        public double Cos(double angle)
         {
-            return Math.Cos(GetAngle(degrees));
+            return Math.Round(Math.Cos(DegreeToRadian(angle)), 3);
         }
 
-        public double Tan(double degrees)
+        public double Tan(double angle)
         {
-            return Math.Tan(GetAngle(degrees));
+            return Math.Round(Math.Tan(DegreeToRadian(angle)), 3);
         }
 
-        private double GetAngle(double degrees)
+        private double DegreeToRadian(double angle)
         {
-            return (Math.PI * degrees / 180.0);
+            return Math.PI * angle / 180.0;
         }
     }
 }

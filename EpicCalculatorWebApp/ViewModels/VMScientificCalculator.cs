@@ -18,7 +18,7 @@ namespace EpicCalculatorWebApp.ViewModels
         [Display(Name = "Log Base")]
         public double? LogBase { get; set; }
 
-        public double? Degrees { get; set; }
+        public double? Angle { get; set; }
 
         [Display(Name = "Operation")]
         public string OperationId { get; set; }

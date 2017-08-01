@@ -41,59 +41,6 @@
   </Configuration>
   <InitializeActions />
   <ExecuteActions>
-    <SendKeysAction>
-      <ParameterName />
-      <ModifierKeys>Windows</ModifierKeys>
-      <IsGlobalHotkey>true</IsGlobalHotkey>
-      <Text Encoded="false">r</Text>
-    </SendKeysAction>
-    <SetValueAction UIObjectName="UIMap.UIRunWindow.UIItemWindow.UIOpenComboBox">
-      <ParameterName />
-      <Value Encoded="false">iexplore http://qaepiccalculator.azurewebsites.net/</Value>
-      <Type>String</Type>
-      <PreferEdit>True</PreferEdit>
-    </SetValueAction>
-    <SendKeysAction UIObjectName="UIMap.UIRunWindow.UIItemWindow1.UIOpenEdit">
-      <ParameterName />
-      <ModifierKeys>None</ModifierKeys>
-      <IsGlobalHotkey>false</IsGlobalHotkey>
-      <Text Encoded="false">{Enter}</Text>
-    </SendKeysAction>
-    <MouseAction UIObjectName="UIMap.UIEpicCalculatorHomePaWindow.UIEpicCalculatorHomePaDocument.UIStandardCalculatorHyperlink">
-      <ParameterName />
-      <ModifierKeys>None</ModifierKeys>
-      <IsGlobalHotkey>false</IsGlobalHotkey>
-      <Location X="69" Y="28" />
-      <WheelDirection>0</WheelDirection>
-      <ActionType>Click</ActionType>
-      <MouseButton>Left</MouseButton>
-    </MouseAction>
-    <TestStepMarkerAction Comment="Method to open the EpicCalculator QA site" MarkerInformation="OpenSite">
-      <ParameterName />
-      <StepId>-1</StepId>
-      <Direction>Start</Direction>
-      <Outcome />
-      <Disabled>false</Disabled>
-      <WorkItemId>0</WorkItemId>
-      <MarkerRegionType>Action</MarkerRegionType>
-    </TestStepMarkerAction>
-    <AssertAction UIObjectName="UIMap.UIEpicCalculatorHomePaWindow.UIStandardCalculatorEpDocument.UIStandardCalculatorFiPane">
-      <ParameterName />
-      <PropertyName>Exists</PropertyName>
-      <ExpectedValue>True</ExpectedValue>
-      <MessageOnValidationFailure>Standard Calculator didn't show</MessageOnValidationFailure>
-      <Type>String</Type>
-      <PropertyCondition>AreEqual</PropertyCondition>
-    </AssertAction>
-    <TestStepMarkerAction Comment="Method to make sure that standard calculator loaded" MarkerInformation="AssertStandardCalcShow">
-      <ParameterName />
-      <StepId>-1</StepId>
-      <Direction>Start</Direction>
-      <Outcome />
-      <Disabled>false</Disabled>
-      <WorkItemId>0</WorkItemId>
-      <MarkerRegionType>Assertion</MarkerRegionType>
-    </TestStepMarkerAction>
     <SetValueAction UIObjectName="UIMap.UIEpicCalculatorHomePaWindow.UIStandardCalculatorEpDocument.UIFirstNumberEdit">
       <ParameterName />
       <Value Encoded="false">15</Value>
@@ -152,24 +99,6 @@
       <WorkItemId>0</WorkItemId>
       <MarkerRegionType>Assertion</MarkerRegionType>
     </TestStepMarkerAction>
-    <MouseAction UIObjectName="UIMap.UIEpicCalculatorHomePaWindow.UIStandardCalculatorEpDocument.UIClearButton">
-      <ParameterName />
-      <ModifierKeys>None</ModifierKeys>
-      <IsGlobalHotkey>false</IsGlobalHotkey>
-      <Location X="36" Y="18" />
-      <WheelDirection>0</WheelDirection>
-      <ActionType>Click</ActionType>
-      <MouseButton>Left</MouseButton>
-    </MouseAction>
-    <TestStepMarkerAction Comment="" MarkerInformation="ClickOnClear">
-      <ParameterName />
-      <StepId>-1</StepId>
-      <Direction>Start</Direction>
-      <Outcome />
-      <Disabled>false</Disabled>
-      <WorkItemId>0</WorkItemId>
-      <MarkerRegionType>Action</MarkerRegionType>
-    </TestStepMarkerAction>
     <AssertAction UIObjectName="UIMap.UIEpicCalculatorHomePaWindow.UIStandardCalculatorEpDocument.UIFirstNumberEdit1">
       <ParameterName />
       <PropertyName>Text</PropertyName>
@@ -218,6 +147,41 @@
       <Disabled>false</Disabled>
       <WorkItemId>0</WorkItemId>
       <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <AssertAction UIObjectName="UIMap.UIEpicCalculatorHomePaWindow.UIStandardCalculatorEpDocument.UIStandardCalculatorFiPane">
+      <ParameterName />
+      <PropertyName>Exists</PropertyName>
+      <ExpectedValue>True</ExpectedValue>
+      <MessageOnValidationFailure>Standard Calculator didn't show</MessageOnValidationFailure>
+      <Type>String</Type>
+      <PropertyCondition>AreEqual</PropertyCondition>
+    </AssertAction>
+    <TestStepMarkerAction Comment="Method to make sure that standard calculator loaded" MarkerInformation="AssertStandardCalcShow">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Assertion</MarkerRegionType>
+    </TestStepMarkerAction>
+    <MouseAction UIObjectName="UIMap.UIEpicCalculatorHomePaWindow.UIStandardCalculatorEpDocument.UIClearButton">
+      <ParameterName />
+      <ModifierKeys>None</ModifierKeys>
+      <IsGlobalHotkey>false</IsGlobalHotkey>
+      <Location X="36" Y="18" />
+      <WheelDirection>0</WheelDirection>
+      <ActionType>Click</ActionType>
+      <MouseButton>Left</MouseButton>
+    </MouseAction>
+    <TestStepMarkerAction Comment="" MarkerInformation="ClickOnClear">
+      <ParameterName />
+      <StepId>-1</StepId>
+      <Direction>Start</Direction>
+      <Outcome />
+      <Disabled>false</Disabled>
+      <WorkItemId>0</WorkItemId>
+      <MarkerRegionType>Action</MarkerRegionType>
     </TestStepMarkerAction>
     <BrowserAction UIObjectName="UIMap.UIEpicCalculatorHomePaWindow">
       <ParameterName />

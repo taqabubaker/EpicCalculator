@@ -8,7 +8,7 @@ using Microsoft.VisualStudio.TestTools.UITesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VisualStudio.TestTools.UITest.Extension;
 using Keyboard = Microsoft.VisualStudio.TestTools.UITesting.Keyboard;
-
+using EpicCalculator.WebAppCodedUITest;
 
 namespace EpicCalculator.UITest.WebAppCodedUITest
 {
